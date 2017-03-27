@@ -1,0 +1,39 @@
+{
+  "name": "four_color.js",
+  "version": "1.0.0",
+  "description": "Four coloring of graphs, for Javascript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/four_color.js.git"
+  },
+  "keywords": [
+    "four",
+    "color",
+    "four-color",
+    "fourcolor",
+    "4-color",
+    "coloring",
+    "four-coloring",
+    "fourcoloring",
+    "node",
+    "graph",
+    "vertex",
+    "edge",
+    "colour",
+    "colouring",
+    "four-colour",
+    "four-colouring",
+    "paint",
+    "painting"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/four_color.js/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/four_color.js#readme"
+}
