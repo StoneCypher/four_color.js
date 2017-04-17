@@ -1,4 +1,6 @@
 
+'use strict';
+
 function gen4col_bt(solutions, vertices, whichVertex, work, stopAtOne) { // generate a 4-coloring through backtracking
 
   for (let color=0; color<4; ++color) {
@@ -30,7 +32,7 @@ function gen4col_bt(solutions, vertices, whichVertex, work, stopAtOne) { // gene
 }
 
 function gen4col(vertices, stopAtOne) {
-  gen4col(vertices.map(arr => { return { neighbors: vertices }; }), stopAtOne);
+  return gen4col_obj(vertices.map(arr => { return { neighbors: arr }; }), stopAtOne);
 }
 
 function gen4col_obj(vertices, stopAtOne) {
