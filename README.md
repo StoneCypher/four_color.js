@@ -41,6 +41,8 @@ This says "Paint Alaska in color 0, Alabama in 0, Arkansas in 0, Arizona in 0, C
 
 There is only one method: `gen4col(vertexArray, returnOnlyOne)`.
 
+### `gen4col(vertexArray, returnOnlyOne)`
+
 `vertexArray` is an `array` of `array`s, where the master offset is the vertex ID, and the items in the subordinate arrays are the connected vertices.  All links should be listed bidirectionally.
 
 `returnOnlyOne` is a `boolean` which tells the algorithm whether to return only the first solution it finds, or every solution.
