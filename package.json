@@ -1,6 +1,6 @@
 {
   "name": "four_color.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Four coloring of graphs, for Javascript",
   "main": "dist/index.js",
   "scripts": {
